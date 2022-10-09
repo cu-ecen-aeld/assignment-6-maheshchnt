@@ -27,7 +27,6 @@ inherit update-rc.d
 INITSCRIPT_PACKAGES = "${PN}"
 INITSCRIPT_NAME:${PN} = "S99aesdsocket.sh"
 
-do_compile[nostamp] = "1"
 #
 # TODO: customize these as necessary for any libraries you need for your application
 # (and remove comment)
